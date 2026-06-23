@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/Public/css/style.css"/>
+    <title>Contoh HTML Dasar</title>
+    <style>
+        .fajar{
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <!-- Contoh Paragraf -->
+    <h1>Contoh Paragraf</h1>
+    <p>Ini adalah contoh paragraf pertama dalam HTML.</p>
+    <p>Ini adalah contoh paragraf kedua. Paragraf ini berisi teks yang lebih panjang untuk menunjukkan bagaimana tag p bekerja dalam HTML. Tag ini secara otomatis membuat baris baru sebelum dan sesudah paragraf.</p>
+    
+    <!-- Contoh Heading -->
+    <h1>Heading 1 (Paling Besar)</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6 (Paling Kecil)</h6>
+    
+    <!-- Contoh Format Teks -->
+
+    <h2>Contoh Format Teks</h2>
+    <p><b>Teks tebal</b> menggunakan tag b</p>
+    <p><i>Teks miring</i> menggunakan tag i</p>
+    <p><u>Teks bergaris bawah</u> menggunakan tag u</p>
+    
+    <!-- Contoh List -->
+    <h2>Contoh List</h2>
+    <h3>List Berurutan (Ordered List)</h3>
+    <ol>
+        <li>Item pertama</li>
+        <li>Item kedua</li>
+        <li>Item ketiga</li>
+    </ol>
+    
+    <h3>List Tidak Berurutan (Unordered List)</h3>
+    <ul>
+        <li>Item pertama</li>
+        <li>Item kedua</li>
+        <li>Item ketiga</li>
+    </ul>
+    
+    <!-- Contoh Link -->
+    <h2>Contoh Link</h2>
+    <p>Ini adalah contoh <a href="https://www.google.com">link ke Google</a></p>
+    
+    <!-- Contoh Gambar -->
+    <h2>Contoh Gambar</h2>
+    <p>Gambar dari URL eksternal:</p>
+    <img src="cute-crying.png" alt="Contoh gambar placeholder">
+    
+    <!-- Contoh Tabel -->
+    <h2>Contoh Tabel</h2>
+    <table border="1">
+        <tr>
+            <th>Nama</th>
+            <th>Usia</th>
+            <th>Kota</th>
+        </tr>
+        <tr>
+            <td>Andi</td>
+            <td>25</td>
+            <td>Jakarta</td>
+        </tr>
+        <tr>
+            <td>Budi</td>
+            <td>30</td>
+            <td>Bandung</td>
+        </tr>
+    </table>
+    
+    <!-- Contoh Form Singkat -->
+    <h2>Contoh Form Singkat</h2>
+    <form action="#" method="post">
+        <div>
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <br>
+        <div>
+            <label for="pesan">Pesan:</label>
+            <textarea id="pesan" name="pesan" rows="4" cols="30"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Kirim">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+    
+    <!-- Contoh Form Lanjutan -->
+    <h2>Contoh Form Lanjutan</h2>
+    <form action="#" method="post">
+        <div>
+            <label for="jenis-kelamin">Jenis Kelamin:</label>
+            <input type="radio" id="laki" name="jenis-kelamin" value="laki-laki">
+            <label for="laki">Laki-laki</label>
+            <input type="radio" id="perempuan" name="jenis-kelamin" value="perempuan">
+            <label for="perempuan">Perempuan</label>
+        </div>
+        <br>
+        <div>
+            <label for="hobi">Hobi:</label>
+            <input type="checkbox" id="membaca" name="hobi" value="membaca">
+            <label for="membaca">Membaca</label>
+            <input type="checkbox" id="olahraga" name="hobi" value="olahraga">
+            <label for="olahraga">Olahraga</label>
+        </div>
+        <br>
+        <div>
+            <label for="kota">Kota:</label>
+            <select id="kota" name="kota">
+                <option value="jakarta">Jakarta</option>
+                <option value="bandung">Bandung</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Daftar">
+        </div>
+    </form>
+    <div class="fajar">
+        <h1 style="color: aqua;">fajar</h1>
+        <h1>fajar</h1>
+    </div>
+</body>
+</html>
